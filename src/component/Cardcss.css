@@ -1,0 +1,827 @@
+.carcss {
+  width: 480px;
+  height: 270px;
+  background-color: aqua;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: 2px white solid;
+  background-color: white;
+}
+.ca1 {
+  background-color: white;
+}
+.ca2 {
+  background-color: black;
+}
+.ca3 {
+  background-color: rgb(127, 18, 160);
+}
+.carcss .i1 {
+  margin-top: 25px;
+  width: 120%;
+  outline: cover;
+}
+.carcss .i2 {
+  margin-top: 55px;
+  width: 120%;
+  outline: cover;
+}
+.carcss .i3 {
+  margin-top: -10px;
+  width: 120%;
+  outline: cover;
+}
+.carcss .i4 {
+  margin-top: 0;
+  width: 100%;
+  outline: cover;
+}
+.carcss .i44 {
+  margin-top: 25px;
+  width: 100%;
+  outline: cover;
+}
+.carcss .i5 {
+  margin-top: -35px;
+  width: 90%;
+  outline: cover;
+}
+.carcss .div {
+  width: 480px;
+  height: 270px;
+  background-color: rgba(0, 0, 0, 0.507);
+  display: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+}
+.carcss:hover .div {
+  width: 480px;
+  height: 270px;
+  background-color: rgba(0, 0, 0, 0.623);
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+}
+.carcss .div .play {
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carcss .div .play svg {
+  width: 100px;
+  height: 100px;
+  fill: rgba(0, 0, 0, 0.829);
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1710px) {
+  .carcss {
+    width: 580px;
+    height: 370px;
+    background-color: aqua;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px white solid;
+    background-color: white;
+  }
+  .ca1 {
+    background-color: white;
+  }
+  .ca2 {
+    background-color: black;
+  }
+  .ca3 {
+    background-color: rgb(127, 18, 160);
+  }
+  .carcss .i1 {
+    margin-top: 25px;
+    width: 130%;
+    outline: cover;
+  }
+  .carcss .i2 {
+    margin-top: 55px;
+    width: 130%;
+    outline: cover;
+  }
+  .carcss .i3 {
+    margin-top: -10px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i4 {
+    margin-top: -40px;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .i44 {
+    margin-top: -00px;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .i5 {
+    margin-top: -45px;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .div {
+    width: 580px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss:hover .div {
+    width: 580px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.829);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss .div .play {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carcss .div .play svg {
+    width: 100px;
+    height: 100px;
+    fill: rgba(0, 0, 0, 0.829);
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .carcss {
+    width: 510px;
+    height: 300px;
+    background-color: aqua;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px white solid;
+    background-color: white;
+  }
+  .ca1 {
+    background-color: white;
+  }
+  .ca2 {
+    background-color: black;
+  }
+  .ca3 {
+    background-color: rgb(127, 18, 160);
+  }
+  .carcss .i1 {
+    margin-top: 25px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i2 {
+    margin-top: 55px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i3 {
+    margin-top: -10px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i4 {
+    margin-top: 0;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .i44 {
+    margin-top: 25px;
+    width: 130%;
+    outline: cover;
+  }
+  .carcss .i5 {
+    margin-top: -35px;
+    width: 90%;
+    outline: cover;
+  }
+  .carcss .div {
+    width: 510px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss:hover .div {
+    width: 510px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.829);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss .div .play {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carcss .div .play svg {
+    width: 100px;
+    height: 100px;
+    fill: rgba(0, 0, 0, 0.829);
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .carcss {
+    width: 480px;
+    height: 270px;
+    background-color: aqua;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px white solid;
+    background-color: white;
+  }
+  .ca1 {
+    background-color: white;
+  }
+  .ca2 {
+    background-color: black;
+  }
+  .ca3 {
+    background-color: rgb(127, 18, 160);
+  }
+  .carcss .i1 {
+    margin-top: 25px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i2 {
+    margin-top: 55px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i3 {
+    margin-top: -10px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i4 {
+    margin-top: 0;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .i44 {
+    margin-top: 25px;
+    width: 130%;
+    outline: cover;
+  }
+  .carcss .i5 {
+    margin-top: -35px;
+    width: 90%;
+    outline: cover;
+  }
+  .carcss .div {
+    width: 480px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss:hover .div {
+    width: 480px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 0.829);
+    display: flex;
+    border-i4radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss .div .play {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carcss .div .play svg {
+    width: 100px;
+    height: 100px;
+    fill: rgba(0, 0, 0, 0.829);
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 1444px) {
+  .carcss {
+    width: 480px;
+    height: 270px;
+    background-color: aqua;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px white solid;
+    background-color: white;
+  }
+  .ca1 {
+    background-color: white;
+  }
+  .ca2 {
+    background-color: black;
+  }
+  .ca3 {
+    background-color: rgb(127, 18, 160);
+  }
+  .carcss .i1 {
+    margin-top: 25px;
+    width: 130%;
+    outline: cover;
+  }
+  .carcss .i2 {
+    margin-top: 55px;
+    width: 130%;
+    outline: cover;
+  }
+  .carcss .i3 {
+    margin-top: -10px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i4 {
+    margin-top: -00px;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .i44 {
+    margin-top: -00px;
+    width: 90%;
+    outline: cover;
+  }
+  .carcss .i5 {
+    margin-top: -45px;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .div {
+    width: 480px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss:hover .div {
+    width: 480px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 0.829);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss .div .play {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carcss .div .play svg {
+    width: 100px;
+    height: 100px;
+    fill: rgba(0, 0, 0, 0.829);
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .carcss {
+    width: 480px;
+    height: 270px;
+    background-color: aqua;
+    margin-top: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px white solid;
+    background-color: white;
+  }
+  .ca1 {
+    background-color: white;
+  }
+  .ca2 {
+    background-color: black;
+  }
+  .ca3 {
+    background-color: rgb(127, 18, 160);
+  }
+  .carcss .i1 {
+    margin-top: 25px;
+    width: 130%;
+    outline: cover;
+  }
+  .carcss .i2 {
+    margin-top: 55px;
+    width: 130%;
+    outline: cover;
+  }
+  .carcss .i3 {
+    margin-top: -10px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i4 {
+    margin-top: -00px;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .i44 {
+    margin-top: -00px;
+    width: 100% !important;
+    outline: cover;
+  }
+  .carcss .i5 {
+    margin-top: -45px;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .div {
+    width: 580px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss:hover .div {
+    width: 580px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, 0.829);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss .div .play {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carcss .div .play svg {
+    width: 100px;
+    height: 100px;
+    fill: rgba(0, 0, 0, 0.829);
+    border-radius: 50%;
+  }
+}
+
+
+
+@media screen and (max-width: 570px) {
+  .carcss {
+    width: 400px;
+    height: 210px;
+    background-color: aqua;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px white solid;
+    background-color: white;
+  }
+  .ca1 {
+    background-color: white;
+  }
+  .ca2 {
+    background-color: black;
+  }
+  .ca3 {
+    background-color: rgb(127, 18, 160);
+  }
+  .carcss .i1 {
+    margin-top: 25px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i2 {
+    margin-top: 55px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i3 {
+    margin-top: -10px;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .i4 {
+    margin-top: 15px;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .i44 {
+    margin-top: 5px;
+    width: 90% !important;
+    outline: cover;
+  }
+  .carcss .i5 {
+    margin-top: -35px;
+    width: 90%;
+    outline: cover;
+  }
+  .carcss .div {
+    width: 400px;
+    height: 210px;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss:hover .div {
+    width: 400px;
+    height: 210px;
+    background-color: rgba(0, 0, 0, 0.829);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss .div .play {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carcss .div .play svg {
+    width: 100px;
+    height: 100px;
+    fill: rgba(0, 0, 0, 0.829);
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .carcss {
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px white solid;
+    background-color: white;
+  }
+  .ca1 {
+    background-color: white;
+  }
+  .ca2 {
+    background-color: black;
+  }
+  .ca3 {
+    background-color: rgb(127, 18, 160);
+  }
+  .carcss .i1 {
+    margin-top: 15px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i2 {
+    margin-top: 35px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i3 {
+    margin-top: -10px;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .i4 {
+    margin-top: -35px;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .i44 {
+    margin-top: 5px;
+    width: 150%;
+    outline: cover;
+  }
+  .carcss .i5 {
+    margin-top: -45px;
+    width: 90%;
+    outline: cover;
+  }
+  .carcss .div {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss:hover .div {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.829);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss .div .play {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carcss .div .play svg {
+    width: 100px;
+    height: 100px;
+    fill: rgba(0, 0, 0, 0.829);
+    border-radius: 50%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .carcss {
+    width: 240px;
+    height: 150px;
+    background-color: aqua;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px white solid;
+    background-color: white;
+  }
+  .ca1 {
+    background-color: white;
+  }
+  .ca2 {
+    background-color: black;
+  }
+  .ca3 {
+    background-color: rgb(127, 18, 160);
+  }
+  .carcss .i1 {
+    margin-top: 15px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i2 {
+    margin-top: 25px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i3 {
+    margin-top: -10px;
+    width: 120%;
+    outline: cover;
+  }
+  .carcss .i4 {
+    margin-top: -15px;
+    width: 100%;
+    outline: cover;
+  }
+  .carcss .i44 {
+    margin-top: 5px;
+    width: 130%;
+    outline: cover;
+  }
+  .carcss .i5 {
+    margin-top: -35px;
+    width: 90%;
+    outline: cover;
+  }
+  .carcss .div {
+    width: 240px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.507);
+    display: none;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss:hover .div {
+    width: 240px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.829);
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+  }
+  .carcss .div .play {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carcss .div .play svg {
+    width: 100px;
+    height: 100px;
+    fill: rgba(0, 0, 0, 0.829);
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+body{
+  
+  background-color: #040402;
+display: flex;
+flex-direction: column;
+justify-content:center ;
+}

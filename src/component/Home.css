@@ -1,0 +1,928 @@
+.home{
+    width: 100%;
+    height: auto;
+    margin-top: 90px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home .div1{
+ width: 1020px;
+ height: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.home .div1 h1{
+color:#dd1e4b ;
+
+font-size: 100px;
+font-weight: 800;
+width: 850px;
+text-align: left;
+margin-top: 20px;
+
+   }
+   .home .div1 p{
+   color: gray;
+   font-size:30px;
+    text-align: left;
+    width: 850px;
+    margin-top: -20px;
+       }
+       .home .div1  .btn1{
+      width: 850px;
+      height: 50px;
+      display: flex;
+      justify-items: flex-start;
+            }
+       .home .div1 button{
+     width: 250px;
+     height: 60px;
+     background-color: #dd1e4b;
+     border: none;
+     color: white;
+     font-size: 30px;
+     font-weight: 600;
+            }
+.home .div2{
+    width: 900px;
+    height: auto;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+
+   }
+   .home .div2 img{
+   width: 420px;
+overflow: hidden;
+   }
+   @media screen and (max-width: 1600px) {
+      .home .div1{
+         width: 766px;
+         height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    z-index: 99;
+        
+        }
+        .home .div1 h1{
+         color:#dd1e4b ;
+         
+         font-size: 85px;
+         font-weight: 800;
+         width: 720px;
+         text-align: left;
+         margin-top: 20px;
+         
+            }
+            .home .div1 p{
+               color: gray;
+               font-size:30px;
+                text-align: left;
+                width: 720px;
+                margin-top: -20px;
+                   }
+                   .home .div1  .btn1{
+                     width: 720px;
+                     height: 50px;
+                     display: flex;
+                     justify-items: flex-start;
+                           }
+                      .home .div1 button{
+                    width: 250px;
+                    height: 60px;
+                    background-color: #dd1e4b;
+                    border: none;
+                    color: white;
+                    font-size: 30px;
+                    font-weight: 600;
+                           }
+        .home .div2{
+         width: 550px;
+         height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     
+        }
+        .home .div2 img{
+        width: 320px;
+     overflow: hidden;
+        }
+   }
+
+   @media screen and (max-width: 1366px) {
+      .home .div1{
+         width: 660px;
+         height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    z-index: 99;
+        
+        }
+        .home .div1 h1{
+         color:#dd1e4b ;
+         
+         font-size: 75px;
+         font-weight: 800;
+         width: 660px;
+         text-align: left;
+         margin-top: 20px;
+         
+            }
+            .home .div1 p{
+               color: gray;
+               font-size:30px;
+                text-align: left;
+                width: 660px;
+                margin-top: -20px;
+                   }
+                   .home .div1  .btn1{
+                     width: 660px;
+                     height: 50px;
+                     display: flex;
+                     justify-items: flex-start;
+                           }
+                      .home .div1 button{
+                    width: 250px;
+                    height: 60px;
+                    background-color: #dd1e4b;
+                    border: none;
+                    color: white;
+                    font-size: 30px;
+                    font-weight: 600;
+                           }
+        .home .div2{
+         width: 550px;
+         height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     
+        }
+        .home .div2 img{
+        width: 320px;
+     overflow: hidden;
+        }
+   }
+   @media screen and (max-width: 1220px) {
+      .home .div1{
+         width: 600px;
+         height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    z-index: 99;
+        
+        }
+        .home .div1 h1{
+         color:#dd1e4b ;
+         
+         font-size: 65px;
+         font-weight: 800;
+         width: 550px;
+         text-align: left;
+         margin-top: 20px;
+         
+            }
+            .home .div1 p{
+               color: gray;
+               font-size:30px;
+                text-align: left;
+                width: 550px;
+                margin-top: -20px;
+                   }
+                   .home .div1  .btn1{
+                     width: 550px;
+                     height: 50px;
+                     display: flex;
+                     justify-items: flex-start;
+                           }
+                      .home .div1 button{
+                    width: 250px;
+                    height: 60px;
+                    background-color: #dd1e4b;
+                    border: none;
+                    color: white;
+                    font-size: 30px;
+                    font-weight: 600;
+                           }
+        .home .div2{
+         width: 600px;
+         height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     
+        }
+        .home .div2 img{
+        width: 320px;
+     overflow: hidden;
+        }
+   }
+   @media screen and (max-width: 1100px) {
+      .home .div1{
+         width: 540px;
+         height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    z-index: 99;
+        
+        }
+        .home .div1 h1{
+         color:#dd1e4b ;
+         
+         font-size: 55px;
+         font-weight: 800;
+         width: 500px;
+         text-align: left;
+         margin-top: 20px;
+         
+            }
+            .home .div1 p{
+               color: gray;
+               font-size:30px;
+                text-align: left;
+                width: 500px;
+                margin-top: -20px;
+                   }
+                   .home .div1  .btn1{
+                     width: 500px;
+                     height: 50px;
+                     display: flex;
+                     justify-items: flex-start;
+                           }
+                      .home .div1 button{
+                    width: 250px;
+                    height: 60px;
+                    background-color: #dd1e4b;
+                    border: none;
+                    color: white;
+                    font-size: 30px;
+                    font-weight: 600;
+                           }
+        .home .div2{
+         width: 550px;
+         height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     
+        }
+        .home .div2 img{
+        width: 320px;
+     overflow: hidden;
+        }
+   }
+   @media screen and (max-width: 1020px) {
+      .home .div1{
+         width: 500px;
+         height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    z-index: 99;
+        
+        }
+        .home .div1 h1{
+         color:#dd1e4b ;
+         
+         font-size: 50px;
+         font-weight: 800;
+         width: 450px;
+         text-align: left;
+         margin-top: 20px;
+         
+            }
+            .home .div1 p{
+               color: gray;
+               font-size:30px;
+                text-align: left;
+                width: 450px;
+                margin-top: -20px;
+                   }
+                   .home .div1  .btn1{
+                     width: 450px;
+                     height: 50px;
+                     display: flex;
+                     justify-items: flex-start;
+                           }
+                      .home .div1 button{
+                    width: 250px;
+                    height: 60px;
+                    background-color: #dd1e4b;
+                    border: none;
+                    color: white;
+                    font-size: 30px;
+                    font-weight: 600;
+                           }
+        .home .div2{
+         width: 450px;
+         height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: flex-start;
+     
+        }
+        .home .div2 img{
+        width: 300px;
+     overflow: hidden;
+        }
+   }
+   @media screen and (max-width: 1000px) {
+      .home{
+               width: 100% !important;
+               height: auto;
+               margin-top: 200px;
+               display: flex;
+               flex-direction: column;
+               justify-content: center ;
+               align-items: center;
+            }
+            .home .div1{
+               width: 100%;
+               height: auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+          z-index: 99;
+              
+              }
+              .home .div1 h1{
+               color:#dd1e4b ;
+               
+               font-size: 60px;
+               font-weight: 800;
+               width: 70%;
+               text-align: center;
+               margin-top: 60px;
+               
+                  }
+                  .home .div1 p{
+                     color: rgb(58, 57, 57);
+                     font-size:20px;
+                      text-align: center;
+                      width: 70%;
+                      margin-top: -0px;
+                      font-weight: 600;
+                         }
+                         .home .div1  .btn1{
+                           width: 100%;
+                           height: 50px;
+                           display: flex;
+      justify-content: center;                           }
+                            .home .div1 button{
+                          width: 150px;
+                          height: 50px;
+                          background-color: #dd1e4b;
+                          font-size: 17px;
+                                 }
+                                 .home .div2{
+                                    width: 100%;
+                                    height: auto;
+                                    margin-top: -190px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: flex-start;
+                                position: absolute;
+                                   }
+                                   .home .div2 img{
+                                   width: 30%;
+                                   margin-top: 30px;
+                                overflow: hidden;
+                                   }
+          }
+
+
+          @media screen and (max-width: 837px) {
+            .home{
+                     width: 100% !important;
+                     height: auto;
+                     margin-top: 180px;
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: center ;
+                     align-items: center;
+                  }
+                  .home .div1{
+                     width: 100%;
+                     height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                z-index: 99;
+                    
+                    }
+                    .home .div1 h1{
+                     color:#dd1e4b ;
+                     
+                     font-size: 60px;
+                     font-weight: 800;
+                     width: 80%;
+                     text-align: center;
+                     margin-top: 30px;
+                     
+                        }
+                        .home .div1 p{
+                           color: rgb(58, 57, 57);
+                           font-size:25px;
+                            text-align: center;
+                            width: 80%;
+                            margin-top: -0px;
+                            font-weight: 600;
+                               }
+                               .home .div1  .btn1{
+                                 width: 100%;
+                                 height: 50px;
+                                 display: flex;
+            justify-content: center;                           }
+                                  .home .div1 button{
+                                width: 150px;
+                                height: 50px;
+                                background-color: #dd1e4b;
+                                font-size: 17px;
+                                       }
+                                       .home .div2{
+                                          width: 100%;
+                                          height: auto;
+                                          margin-top: -190px;
+                                      display: flex;
+                                      justify-content: center;
+                                      align-items: flex-start;
+                                      position: absolute;
+                                         }
+                                         .home .div2 img{
+                                         width: 35%;
+                                         margin-top: 30px;
+                                      overflow: hidden;
+                                         }
+                }
+
+
+                @media screen and (max-width: 730px) {
+                  .home{
+                           width: 100% !important;
+                           height: auto;
+                           margin-top: 200px;
+                           display: flex;
+                           flex-direction: column;
+                           justify-content: center ;
+                           align-items: center;
+                        }
+                        .home .div1{
+                           width: 100%;
+                           height: auto;
+                          display: flex;
+                          flex-direction: column;
+                          justify-content: center;
+                          align-items: center;
+                      z-index: 99;
+                          
+                          }
+                          .home .div1 h1{
+                           color:#dd1e4b ;
+                           
+                           font-size: 70px;
+                           font-weight: 800;
+                           width: 100%;
+                           text-align: center;
+                           margin-top: 0px;
+                           
+                              }
+                              .home .div1 p{
+                                 color: rgb(58, 57, 57);
+                                 font-size:25px;
+                                  text-align: center;
+                                  width: 80%;
+                                  margin-top: -20px;
+                                  font-weight: 600;
+                                     }
+                                     .home .div1  .btn1{
+                                       width: 100%;
+                                       height: 50px;
+                                       display: flex;
+                  justify-content: center;                           }
+                                        .home .div1 button{
+                                      width: 150px;
+                                      height: 50px;
+                                      background-color: #dd1e4b;
+                                      font-size: 17px;
+                                             }
+                                             .home .div2{
+                                                width: 100%;
+                                                height: auto;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: flex-start;
+                                            position: absolute;
+                                               }
+                                               .home .div2 img{
+                                               width: 40%;
+                                               margin-top: 30px;
+                                            overflow: hidden;
+                                               }
+                      }
+
+   @media screen and (max-width: 720px) {
+.home{
+         width: 100% !important;
+         height: auto;
+         margin-top: 200px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center ;
+         align-items: center;
+      }
+      .home .div1{
+         width: 100%;
+         height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    z-index: 99;
+        
+        }
+        .home .div1 h1{
+         color:#dd1e4b ;
+         
+         font-size: 70px;
+         font-weight: 800;
+         width: 100%;
+         text-align: center;
+         margin-top: 0px;
+         
+            }
+            .home .div1 p{
+               color: rgb(58, 57, 57);
+               font-size:25px;
+                text-align: center;
+                width: 80%;
+                margin-top: -20px;
+                font-weight: 600;
+                   }
+                   .home .div1  .btn1{
+                     width: 100%;
+                     height: 50px;
+                     display: flex;
+justify-content: center;                           }
+                      .home .div1 button{
+                    width: 150px;
+                    height: 50px;
+                    background-color: #dd1e4b;
+                    font-size: 17px;
+                           }
+                           .home .div2{
+                              width: 100%;
+                              height: auto;
+                          display: flex;
+                          justify-content: center;
+                          align-items: flex-start;
+                          position: absolute;
+                             }
+                             .home .div2 img{
+                             width: 40%;
+                             margin-top: 30px;
+                          overflow: hidden;
+                             }
+    }
+    @media screen and (max-width: 585px) {
+      .home{
+               width: 100% !important;
+               height: auto;
+               margin-top: 220px;
+               display: flex;
+               flex-direction: column;
+               justify-content: center ;
+               align-items: center;
+            }
+            .home .div1{
+               width: 100%;
+               height: auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+          z-index: 99;
+              
+              }
+              .home .div1 h1{
+               color:#dd1e4b ;
+               
+               font-size: 45px;
+               font-weight: 800;
+               width: 100%;
+               text-align: center;
+               margin-top: 35px;
+               
+                  }
+                  .home .div1 p{
+                     color: rgb(58, 57, 57);
+                     font-size:20px;
+                      text-align: center;
+                      width: 90%;
+                      margin-top: -20px;
+                      font-weight: 600;
+                         }
+                         .home .div1  .btn1{
+                           width: 100%;
+                           height: 50px;
+                           display: flex;
+      justify-content: center;                           }
+                            .home .div1 button{
+                          width: 150px;
+                          height: 50px;
+                          background-color: #dd1e4b;
+                          font-size: 17px;
+                                 }
+                                 .home .div2{
+                                    width: 100%;
+                                    height: auto;
+                                display: flex;
+                                justify-content: center;
+                                align-items: flex-start;
+                                position: absolute;
+                                   }
+                                   .home .div2 img{
+                                   width: 40%;
+                                   margin-top: 30px;
+                                overflow: hidden;
+                                   }
+          }
+           @media screen and (max-width: 500px) {
+      .home{
+               width: 100% !important;
+               height:auto;
+               margin-top: 290px;
+               display: flex;
+               flex-direction: column;
+               justify-content: center ;
+               align-items: center;
+               
+            }
+            .home .div1{
+               width: 100%;
+               height: auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+          z-index: 99;
+              
+              }
+              .home .div1 h1{
+               color:#dd1e4b ;
+               
+               font-size: 35px;
+               font-weight: 800;
+               width: 95%;
+               text-align: center;
+               margin-top: 20px;
+               
+                  }
+                  .home .div1 p{
+                     color: rgb(58, 57, 57);
+                     font-size:20px;
+                      text-align: center;
+                      width: 95%;
+                      margin-top: -20px;
+                      font-weight: 600;
+                         }
+                         .home .div1  .btn1{
+                           width: 95%;
+                           height: 50px;
+                           display: flex;
+      justify-content: center;                           }
+                            .home .div1 button{
+                          width: 150px;
+                          height: 50px;
+                          background-color: #dd1e4b;
+                          font-size: 17px;
+                                 }
+                                 .home .div2{
+                                    width: 100%;
+                                    height: auto;
+                                display: flex;
+                                justify-content: center;
+                                align-items: flex-start;
+                                position: absolute;
+                                   }
+                                   .home .div2 img{
+                                   width: 60%;
+                            
+                                overflow: hidden;
+                                   }
+          }
+
+      
+          @media screen and (max-width: 400px) {
+            .home{
+                     width: 100% !important;
+                     height:auto;
+                     margin-top: 220px;
+                    
+                     display: flex;
+                     flex-direction: column;
+                     justify-content: center ;
+                     align-items: center;
+                     
+                  }
+                  .home .div1{
+                     width: 100%;
+                     height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                z-index: 99;
+                    
+                    }
+                    .home .div1 h1{
+                     color:#dd1e4b ;
+                     
+                     font-size: 35px;
+                     font-weight: 800;
+                     width: 95%;
+                     text-align: center;
+                     margin-top: 20px;
+                     
+                        }
+                        .home .div1 p{
+                           color: rgb(58, 57, 57);
+                           font-size:20px;
+                            text-align: center;
+                            width: 95%;
+                            margin-top: -20px;
+                            font-weight: 600;
+                               }
+                               .home .div1  .btn1{
+                                 width: 95%;
+                                 height: 50px;
+                                 display: flex;
+            justify-content: center;                           }
+                                  .home .div1 button{
+                                width: 150px;
+                                height: 50px;
+                                background-color: #dd1e4b;
+                                font-size: 17px;
+                                       }
+                                       .home .div2{
+                                          width: 100%;
+                                          height: auto;
+                                      display: flex;
+                                      justify-content: center;
+                                      align-items: flex-start;
+                                      position: absolute;
+                                         }
+                                         .home .div2 img{
+                                         width:60%;
+                                  
+                                      overflow: hidden;
+                                         }
+                }
+    @media screen and (max-width: 375px) {
+      .home{
+               width: 100% !important;
+               height:auto;
+               margin-top: 260px;
+              
+               display: flex;
+               flex-direction: column;
+               justify-content: center ;
+               align-items: center;
+               
+            }
+            .home .div1{
+               width: 100%;
+               height: auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+          z-index: 99;
+              
+              }
+              .home .div1 h1{
+               color:#dd1e4b ;
+               
+               font-size: 35px;
+               font-weight: 800;
+               width: 95%;
+               text-align: center;
+               margin-top: 20px;
+               
+                  }
+                  .home .div1 p{
+                     color: rgb(58, 57, 57);
+                     font-size:20px;
+                      text-align: center;
+                      width: 95%;
+                      margin-top: -20px;
+                      font-weight: 600;
+                         }
+                         .home .div1  .btn1{
+                           width: 95%;
+                           height: 50px;
+                           display: flex;
+      justify-content: center;                           }
+                            .home .div1 button{
+                          width: 150px;
+                          height: 50px;
+                          background-color: #dd1e4b;
+                          font-size: 17px;
+                                 }
+                                 .home .div2{
+                                    width: 100%;
+                                    height: auto;
+                                display: flex;
+                                justify-content: center;
+                                align-items: flex-start;
+                                position: absolute;
+                                   }
+                                   .home .div2 img{
+                                   width: 80%;
+                            
+                                overflow: hidden;
+                                   }
+          }
+
+
+          
+    @media screen and (max-width: 300px) {
+      .home{
+               width: 100% !important;
+               height: auto;
+               margin-top: 230px;
+               display: flex;
+               flex-direction: column;
+               justify-content: center ;
+               align-items: center;
+               
+            }
+            .home .div1{
+               width: 100%;
+               height: auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+          z-index: 99;
+              
+              }
+              .home .div1 h1{
+               color:#dd1e4b ;
+               
+               font-size: 30px;
+               font-weight: 800;
+               width: 95%;
+               text-align: center;
+               margin-top: 20px;
+               
+                  }
+                  .home .div1 p{
+                     color: rgb(58, 57, 57);
+                     font-size:17px;
+                      text-align: center;
+                      width: 95%;
+                      margin-top: -20px;
+                      font-weight: 600;
+                         }
+                         .home .div1  .btn1{
+                           width: 95%;
+                           height: 50px;
+                           display: flex;
+      justify-content: center;                           }
+                            .home .div1 button{
+                          width: 120px;
+                          height: 40px;
+                          background-color: #dd1e4b;
+                          font-size: 17px;
+                                 }
+                                 .home .div2{
+                                    width: 100%;
+                                    height: auto;
+                                display: flex;
+                                justify-content: center;
+                                align-items: flex-start;
+                                position: absolute;
+                                   }
+                                   .home .div2 img{
+                                   width: 80%;
+                                overflow: hidden;
+                                   }
+          }

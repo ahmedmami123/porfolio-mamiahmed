@@ -1,0 +1,141 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 9999999999999999999999999999;
+    background-color: black;
+  top: 0;
+  margin-top: 0px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar h1{
+  color: white;
+  font-family: 'Inconsolata', monospace;
+}
+.navbar h2{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+  }
+.navbar .sounav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar .sounav1{
+position: absolute;
+top:80px;
+margin-left: -1000px;
+width: 100%;
+background-color:#191919;
+
+height: 1500px;
+display: flex;
+transition: 2px;
+display: none;
+flex-direction: column;
+
+align-items: center;
+}
+.navbar .sounav2{
+    position: absolute;
+    top:80px;
+    margin-left: 0;
+    width: 100%;
+    background-color:#191919;
+    height: 1500px;
+    display: flex;
+    display: none;
+    flex-direction: column;
+    transition: 2s;
+    align-items: center;
+    }
+.navbar .sounav1 svg{ 
+    margin-top: 20px;
+    
+    }
+.navbar .list{
+    display: none !important;
+    transition: 2s;
+    
+}
+
+@media screen and (max-width: 1020px) {
+    .navbar{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        z-index: 9999999999999999999999999999;
+        
+    }
+    .navbar .sounav{
+ display: none;
+ 
+
+    }
+    .navbar .list{
+        display: flex !important;
+        margin-right: 10px !important;
+        transition: 2s;
+
+    }
+    .navbar .sounav1{
+        display: flex;
+        transition: 2s;
+        justify-content: flex-start;
+        }
+        .navbar .sounav1{
+            display: flex;
+            transition: 2s;
+            justify-content: flex-start;
+            }
+            .navbar .sounav1 .h2{
+               
+                width: 150px;
+                height: 40px;
+                color:white;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 15px;
+                font-size: 25px;
+                font-weight: 600;
+                border-radius: 50px;
+    font-family: 'Inconsolata', monospace;
+
+            }
+.navbar .sounav1 .h2:hover{
+    background-color:#dd1e4b;
+    width: 150px;
+    height: 40px;
+    color:white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px;
+    font-weight: 600;
+}
+.navbar .sounav1 svg:hover{
+    fill:#dd1e4b;
+ 
+}
+.navbar .sounav1 svg{
+
+ 
+}
+  }

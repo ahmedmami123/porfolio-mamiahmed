@@ -1,0 +1,496 @@
+.service {
+    width: 100%;
+  
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .service .list .icon {
+   width: 80px;
+   height: 80px;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+  }
+  .service h1 {
+    color: #dd1e4b;
+    font-size: 80px;
+  }
+  .pr{
+    text-decoration:5px underline;
+  }
+  .service .list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .service .list .div{
+    width: 550px;
+    height: 550px;
+    /* background-image: linear-gradient(90deg, #c03152 50%, #dd1e4b 50%); */
+    background-image: linear-gradient(to right, rgb(253, 106, 155),#c03152);
+    
+   border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .service .list .div h2{
+font-size: 25px;
+font-weight: 800;
+color: white;
+
+  }
+  .service .list .div p{
+    font-size: 25px;
+    height: 200px;
+
+    color: white;
+    text-align: justify;
+    width: 80%;
+    letter-spacing: 1px;
+      }
+      @media screen and (max-width: 1660px) {
+        .service {
+            width: 100%;
+          
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          }
+          .service .list .icon {
+           width: 80px;
+           height: 80px;
+           background-color: white;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 50%;
+          }
+          .service h1 {
+            color: #dd1e4b;
+            font-size: 80px;
+          }
+          .pr{
+            text-decoration:5px underline;
+          }
+          .service .list {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+          }
+          .service .list .div{
+            width: 450px;
+            height: 450px;
+            /* background-image: linear-gradient(90deg, #c03152 50%, #dd1e4b 50%); */
+            background-image: linear-gradient(to right, rgb(253, 106, 155),#c03152);
+            
+           border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .service .list .div h2{
+        font-size: 25px;
+        font-weight: 800;
+        color: white;
+        
+          }
+          .service .list .div p{
+            font-size: 20px;
+            height: 150px;
+        
+            color: white;
+            text-align: justify;
+            width: 80%;
+            letter-spacing: 1px;
+              }
+      }
+
+
+      @media screen and (max-width: 1440px) {
+        .service {
+            width: 100%;
+          margin-bottom: 20px;
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          }
+          .service .list .icon {
+           width: 80px;
+           height: 80px;
+           background-color: white;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 50%;
+          }
+          .service h1 {
+            color: #dd1e4b;
+            font-size: 80px;
+          }
+          .pr{
+            text-decoration:5px underline;
+          }
+          .service .list {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+          }
+          .service .list .div{
+            width: 400px;
+            height: 400px;
+            /* background-image: linear-gradient(90deg, #c03152 50%, #dd1e4b 50%); */
+            background-image: linear-gradient(to right, rgb(253, 106, 155),#c03152);
+            
+           border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .service .list .div h2{
+        font-size: 25px;
+        font-weight: 800;
+        color: white;
+        
+          }
+          .service .list .div p{
+            font-size: 15px;
+            height: 120px;
+      
+            color: white;
+            text-align: justify;
+            width: 80%;
+            letter-spacing: 1px;
+              }
+      }
+
+    
+      @media screen and (max-width: 1220px) {
+        .service {
+            width: 100%;
+          
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          }
+          .service .list .icon {
+           width: 80px;
+           height: 80px;
+           background-color: white;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 50%;
+          }
+          .service h1 {
+            color: #dd1e4b;
+            font-size: 80px;
+          }
+          .pr{
+            text-decoration:5px underline;
+          }
+          .service .list {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+          }
+          .service .list .div{
+            width: 620px;
+            height: 620px;
+            /* background-image: linear-gradient(90deg, #c03152 50%, #dd1e4b 50%); */
+            background-image: linear-gradient(to right, rgb(253, 106, 155),#c03152);
+            
+           border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+          }
+          .service .list .div h2{
+        font-size: 25px;
+        font-weight: 800;
+        color: white;
+        
+          }
+          .service .list .div p{
+            font-size: 25px;
+            height: 200px;
+    
+            color: white;
+            text-align: justify;
+            width: 80%;
+            letter-spacing: 1px;
+              }
+      }
+
+      @media screen and (max-width: 1060px) {
+        .service {
+            width: 100%;
+          
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          }
+          .service .list .icon {
+           width: 80px;
+           height: 80px;
+           background-color: white;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 50%;
+          }
+          .service h1 {
+            color: #dd1e4b;
+            font-size: 80px;
+          }
+          .pr{
+            text-decoration:5px underline;
+          }
+          .service .list {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+          }
+          .service .list .div{
+            width: 550px;
+            height: 550px;
+            /* background-image: linear-gradient(90deg, #c03152 50%, #dd1e4b 50%); */
+            background-image: linear-gradient(to right, rgb(253, 106, 155),#c03152);
+            
+           border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+          }
+          .service .list .div h2{
+        font-size: 25px;
+        font-weight: 800;
+        color: white;
+        
+          }
+          .service .list .div p{
+            font-size: 25px;
+            height: 200px;
+    
+            color: white;
+            text-align: justify;
+            width: 80%;
+            letter-spacing: 1px;
+              }
+      }
+      @media screen and (max-width: 560px) {
+        .service {
+            width: 100%;
+          
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          }
+          .service .list .icon {
+           width: 80px;
+           height: 80px;
+           background-color: white;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 50%;
+          }
+          .service h1 {
+            color: #dd1e4b;
+            font-size: 80px;
+          }
+          .pr{
+            text-decoration:5px underline;
+          }
+          .service .list {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+          }
+          .service .list .div{
+            width: 450px;
+            height: 450px;
+            /* background-image: linear-gradient(90deg, #c03152 50%, #dd1e4b 50%); */
+            background-image: linear-gradient(to right, rgb(253, 106, 155),#c03152);
+            
+           border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .service .list .div h2{
+        font-size: 25px;
+        font-weight: 800;
+        color: white;
+        
+          }
+          .service .list .div p{
+            font-size: 13px;
+            height: 90px;
+    
+            color: white;
+            text-align: justify;
+            width: 80%;
+            letter-spacing: 1px;
+              }
+      }
+
+
+      @media screen and (max-width: 560px) {
+        .service {
+            width: 100%;
+          
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          }
+          .service .list .icon {
+           width: 80px;
+           height: 80px;
+           background-color: white;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 50%;
+          }
+          .service h1 {
+            color: #dd1e4b;
+            font-size: 80px;
+          }
+          .pr{
+            text-decoration:5px underline;
+          }
+          .service .list {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+          }
+          .service .list .div{
+            width: 350px;
+            height: 350px;
+            /* background-image: linear-gradient(90deg, #c03152 50%, #dd1e4b 50%); */
+            background-image: linear-gradient(to right, rgb(253, 106, 155),#c03152);
+            
+           border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .service .list .div h2{
+        font-size: 25px;
+        font-weight: 800;
+        color: white;
+        
+          }
+          .service .list .div p{
+            font-size: 13px;
+            height: 90px;
+    
+            color: white;
+            text-align: justify;
+            width: 80%;
+            letter-spacing: 1px;
+              }
+      }
+      @media screen and (max-width: 360px) {
+        .service {
+            width: 100%;
+          
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          }
+          .service .list .icon {
+           width: 80px;
+           height: 80px;
+           background-color: white;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border-radius: 50%;
+          }
+          .service h1 {
+            color: #dd1e4b;
+            font-size: 70px;
+          }
+          .pr{
+            text-decoration:5px underline;
+          }
+          .service .list {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+          }
+          .service .list .div{
+            width: 280px;
+            height: 280px;
+            /* background-image: linear-gradient(90deg, #c03152 50%, #dd1e4b 50%); */
+            background-image: linear-gradient(to right, rgb(253, 106, 155),#c03152);
+            
+           border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+          .service .list .div h2{
+        font-size: 15px;
+        font-weight: 800;
+        color: white;
+        
+          }
+          .service .list .div p{
+            font-size: 10px;
+            height: 80px;
+font-weight: 600;
+            color: white;
+            text-align: justify;
+            width: 80%;
+            letter-spacing: 1px;
+              }
+      }
+

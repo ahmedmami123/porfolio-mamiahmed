@@ -1,0 +1,900 @@
+.portfilio {
+  width: 100%;
+
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.portfilio h1 {
+  color: #dd1e4b;
+  font-size: 80px;
+}
+.portfilio .list {
+  width: 900px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Inconsolata", monospace;
+}
+.portfilio .list h2 {
+  font-family: "Inconsolata", monospace;
+  font-size: 30px;
+  font-weight: 800 !important;
+  color: white;
+}
+.ba {
+  background-color: #dd1e4b;
+  border-radius: 10px;
+  padding: 10px;
+}
+.portfilio .port {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.portfilio .port .prj {
+  width: 85%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 2px #dd1e4b solid;
+  margin-bottom: 80px;
+}
+.portfilio .port .prj .card {
+  margin-top: 40px;
+  width: 450px;
+  height: 550px;
+  /* box-shadow: #dd1e4b 0px 5px 15px; */
+  box-shadow: #dd1e4b 0px 4px 16px, #dd1e4b 0px 4px 8px, #dd1e4b 0px 4px 14px;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.portfilio .port .prj .card .h1 {
+  font-size: 35px;
+}
+.portfilio .port .prj .cardic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfilio .port .prj .cardic1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.portfilio .port .prj .cardic2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: white;
+}
+.portfilio .port .prj .card img {
+  width: 450px;
+  height: auto;
+}
+
+.portfilio .port .prj .card .img1:hover {
+  margin-top: -430px;
+  transition: 2s;
+}
+
+.portfilio .port .prj .card .img11:hover {
+  margin-top: -1070px;
+  transition: 6s;
+}
+.portfilio .port .prj .card .img22:hover {
+  margin-top: -105px;
+  transition: 2s;
+}
+.portfilio .port .prj .card .img222 {
+  width: 100% !important;
+  margin-left: 0px !important;
+}
+.portfilio .port .prj .card .img33 {
+  width: 160%;
+}
+.portfilio .port .prj .card .img2:hover {
+  margin-top: -160px;
+  transition: 2s;
+}
+.portfilio .port .prj .card .img3:hover {
+  margin-top: -400px;
+  transition: 2s;
+}
+
+@media screen and (max-width: 1650px) {
+  .portfilio .port {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .portfilio .port .prj {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 2px #dd1e4b solid;
+    margin-bottom: 80px;
+  }
+  .portfilio .port .prj .card {
+    margin-top: 40px;
+    width: 400px;
+    height: 550px;
+    /* box-shadow: #dd1e4b 0px 5px 15px; */
+    box-shadow: #dd1e4b 0px 4px 16px, #dd1e4b 0px 4px 8px, #dd1e4b 0px 4px 14px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfilio .port .prj .cardic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfilio .port .prj .card img {
+    width: 400px;
+    height: auto;
+  }
+
+  .portfilio .port .prj .card .img1:hover {
+    margin-top: -330px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img11:hover {
+    margin-top: -890px;
+    transition: 6s;
+  }
+  .portfilio .port .prj .card .img22:hover {
+    margin-top: -32px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img222 {
+    width: 140%;
+    margin-left: 25px;
+  }
+  .portfilio .port .prj .card .img33 {
+    width: 160%;
+  }
+
+  .portfilio .port .prj .card .img2:hover {
+    margin-top: -70px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img3:hover {
+    margin-top: -300px;
+    transition: 2s;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .portfilio .port {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .portfilio .port .prj {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 2px #dd1e4b solid;
+    margin-bottom: 80px;
+  }
+  .portfilio .port .prj .card {
+    margin-top: 40px;
+    width: 350px;
+    height: 450px;
+    /* box-shadow: #dd1e4b 0px 5px 15px; */
+    box-shadow: #dd1e4b 0px 4px 16px, #dd1e4b 0px 4px 8px, #dd1e4b 0px 4px 14px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfilio .port .prj .cardic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfilio .port .prj .card img {
+    width: 350px;
+    height: auto;
+  }
+  .portfilio .port .prj .card .img11:hover {
+    margin-top: -805px;
+    transition: 6s;
+  }
+  .portfilio .port .prj .card .img22:hover {
+    margin-top: -58px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img222 {
+    width: 140%;
+    margin-left: 25px;
+  }
+  .portfilio .port .prj .card .img33 {
+    width: 160%;
+  }
+
+  .portfilio .port .prj .card .img1:hover {
+    margin-top: -330px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img2:hover {
+    margin-top: -70px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img3:hover {
+    margin-top: -300px;
+    transition: 2s;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .portfilio .port {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .portfilio .port .prj {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 2px #dd1e4b solid;
+    margin-bottom: 80px;
+  }
+  .portfilio .port .prj .card {
+    margin-top: 40px;
+    width: 280px;
+    height: 350px;
+    /* box-shadow: #dd1e4b 0px 5px 15px; */
+    box-shadow: #dd1e4b 0px 4px 16px, #dd1e4b 0px 4px 8px, #dd1e4b 0px 4px 14px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfilio .port .prj .cardic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfilio .port .prj .card img {
+    width: 280px;
+    height: auto;
+  }
+
+  .portfilio .port .prj .card .img1:hover {
+    margin-top: -330px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img11:hover {
+   margin-top: -655px;
+   transition: 6s;
+ }
+ .portfilio .port .prj .card .img22:hover {
+   margin-top: -56px;
+   transition: 2s;
+ }
+  .portfilio .port .prj .card .img2:hover {
+    margin-top: -70px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img3:hover {
+    margin-top: -300px;
+    transition: 2s;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .portfilio .port {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .portfilio .port .prj {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 2px #dd1e4b solid;
+    margin-bottom: 80px;
+  }
+  .portfilio .port .prj .card {
+    margin-top: 40px;
+    width: 290px;
+    height: 350px;
+    /* box-shadow: #dd1e4b 0px 5px 15px; */
+    box-shadow: #dd1e4b 0px 4px 16px, #dd1e4b 0px 4px 8px, #dd1e4b 0px 4px 14px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfilio .port .prj .cardic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfilio .port .prj .card img {
+    width: 290px;
+    height: auto;
+  }
+  .portfilio .port .prj .card .img11:hover {
+   margin-top: -695px;
+   transition: 6s;
+ }
+ .portfilio .port .prj .card .img22:hover {
+   margin-top: -71px;
+   transition: 2s;
+ }
+  .portfilio .port .prj .card .img1:hover {
+    margin-top: -290px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img2:hover {
+    margin-top: -130px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img3:hover {
+    margin-top: -250px;
+    transition: 2s;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .portfilio .list {
+    width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+  }
+  .portfilio .list h2 {
+    font-family: "Inconsolata", monospace;
+    font-size: 30px;
+    font-weight: 800 !important;
+    color: white;
+  }
+  .ba {
+    background-color: #dd1e4b;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .portfilio .port .prj .card .img11:hover {
+   margin-top: -550px;
+   transition: 6s;
+ }
+ .portfilio .port .prj .card .img22:hover {
+   margin-top: -11px;
+   transition: 2s;
+ }
+}
+
+@media screen and (max-width: 800px) {
+  .portfilio .list {
+    width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+  }
+  .portfilio .list h2 {
+    font-family: "Inconsolata", monospace;
+    font-size: 30px;
+    font-weight: 800 !important;
+    color: white;
+  }
+  .ba {
+    background-color: #dd1e4b;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .portfilio .port {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .portfilio .port .prj {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 2px #dd1e4b solid;
+    margin-bottom: 80px;
+  }
+  .portfilio .port .prj .card {
+    margin-top: 40px;
+    width: 250px;
+    height: 350px;
+    /* box-shadow: #dd1e4b 0px 5px 15px; */
+    box-shadow: #dd1e4b 0px 4px 16px, #dd1e4b 0px 4px 8px, #dd1e4b 0px 4px 14px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfilio .port .prj .cardic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfilio .port .prj .card img {
+    width: 250px;
+    height: auto;
+    transition: 2s;
+  }
+
+  .portfilio .port .prj .card .img1:hover {
+    margin-top: -210px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img2:hover {
+    margin-top: -65px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img3:hover {
+    margin-top: -170px;
+    transition: 2s;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .portfilio .list {
+    width: 350px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+  }
+  .portfilio .list h2 {
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    font-weight: 800 !important;
+    color: white;
+  }
+  .ba {
+    background-color: #dd1e4b;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .portfilio .port {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .portfilio .port .prj {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 2px #dd1e4b solid;
+    margin-bottom: 80px;
+  }
+  .portfilio .port .prj .card {
+    margin-top: 40px;
+    width: 200px;
+    height: 300px;
+    /* box-shadow: #dd1e4b 0px 5px 15px; */
+    box-shadow: #dd1e4b 0px 4px 16px, #dd1e4b 0px 4px 8px, #dd1e4b 0px 4px 14px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfilio .port .prj .cardic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfilio .port .prj .card img {
+    width: 200px;
+    height: auto;
+  }
+  .portfilio .port .prj .card .img11:hover {
+   margin-top: -425px;
+   transition: 6s;
+ }
+ .portfilio .port .prj .card .img22:hover {
+   margin-top: -71px;
+   transition: 2s;
+ }
+  .portfilio .port .prj .card .img1:hover {
+    margin-top: -150px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img2:hover {
+    margin-top: -30px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img3:hover {
+    margin-top: -130px;
+    transition: 2s;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfilio .list {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+  }
+  .portfilio .list h2 {
+    font-family: "Inconsolata", monospace;
+    font-size: 15px;
+    font-weight: 800 !important;
+    color: white;
+  }
+  .ba {
+    background-color: #dd1e4b;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .portfilio .port {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .portfilio .port .prj {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 2px #dd1e4b solid;
+    margin-bottom: 80px;
+  }
+  .portfilio .port .prj .card {
+    margin-top: 40px;
+    width: 400px;
+    height: 550px;
+    /* box-shadow: #dd1e4b 0px 5px 15px; */
+    box-shadow: #dd1e4b 0px 4px 16px, #dd1e4b 0px 4px 8px, #dd1e4b 0px 4px 14px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfilio .port .prj .cardic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfilio .port .prj .card img {
+    width: 400px;
+    height: auto;
+  }
+
+  .portfilio .port .prj .card .img1:hover {
+    margin-top: -340px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img11:hover {
+   margin-top: -885px;
+   transition: 6s;
+ }
+ .portfilio .port .prj .card .img22:hover {
+   margin-top: -71px;
+   transition: 2s;
+ }
+  .portfilio .port .prj .card .img2:hover {
+    margin-top: -110px;
+    transition: 1s;
+  }
+  .portfilio .port .prj .card .img3:hover {
+    margin-top: -310px;
+    transition: 2s;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .portfilio .list {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+  }
+  .portfilio .list h2 {
+    font-family: "Inconsolata", monospace;
+    font-size: 15px;
+    font-weight: 800 !important;
+    color: white;
+  }
+  .ba {
+    background-color: #dd1e4b;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .portfilio .port {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .portfilio .port .prj {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 2px #dd1e4b solid;
+    margin-bottom: 80px;
+  }
+  .portfilio .port .prj .card {
+    margin-top: 40px;
+    width: 300px;
+    height: 450px;
+    /* box-shadow: #dd1e4b 0px 5px 15px; */
+    box-shadow: #dd1e4b 0px 4px 16px, #dd1e4b 0px 4px 8px, #dd1e4b 0px 4px 14px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfilio .port .prj .cardic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfilio .port .prj .card img {
+    width: 300px;
+    height: auto;
+  }
+
+  .portfilio .port .prj .card .img1:hover {
+    margin-top: -220px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img11:hover {
+   margin-top: -635px;
+   transition: 6s;
+ }
+ .portfilio .port .prj .card .img22:hover {
+   margin-top: -71px;
+   transition: 2s;
+ }
+  .portfilio .port .prj .card .img2:hover {
+    margin-top: -40px;
+    transition: 1s;
+  }
+  .portfilio .port .prj .card .img3:hover {
+    margin-top: -190px;
+    transition: 2s;
+  }
+}
+@media screen and (max-width: 360px) {
+  .portfilio .list {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+  }
+  .portfilio .list h2 {
+    font-family: "Inconsolata", monospace;
+    font-size: 15px;
+    font-weight: 800 !important;
+    color: white;
+  }
+  .ba {
+    background-color: #dd1e4b;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .portfilio .port {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .portfilio .port .prj {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 2px #dd1e4b solid;
+    margin-bottom: 80px;
+  }
+  .portfilio .port .prj .card {
+    margin-top: 40px;
+    width: 260px;
+    height: 430px;
+    /* box-shadow: #dd1e4b 0px 5px 15px; */
+    box-shadow: #dd1e4b 0px 4px 16px, #dd1e4b 0px 4px 8px, #dd1e4b 0px 4px 14px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfilio .port .prj .cardic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfilio .port .prj .card img {
+    width: 260px;
+    height: auto;
+  }
+
+  .portfilio .port .prj .card .img1:hover {
+    margin-top: -150px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img11:hover {
+   margin-top: -505px;
+   transition: 6s;
+ }
+ .portfilio .port .prj .card .img22:hover {
+   margin-top: -71px;
+   transition: 2s;
+ }
+  .portfilio .port .prj .card .img2:hover {
+    margin-top: 0;
+    transition: 1s;
+  }
+  .portfilio .port .prj .card .img3:hover {
+    margin-top: -120px;
+    transition: 2s;
+  }
+
+  .portfilio h1 {
+    color: #dd1e4b;
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .portfilio .list {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+  }
+  .portfilio .list h2 {
+    font-family: "Inconsolata", monospace;
+    font-size: 15px;
+    font-weight: 800 !important;
+    color: white;
+  }
+  .ba {
+    background-color: #dd1e4b;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .portfilio .port {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .portfilio .port .prj {
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 2px #dd1e4b solid;
+    margin-bottom: 80px;
+  }
+  .portfilio .port .prj .card {
+    margin-top: 40px;
+    width: 260px;
+    height: 430px;
+    /* box-shadow: #dd1e4b 0px 5px 15px; */
+    box-shadow: #dd1e4b 0px 4px 16px, #dd1e4b 0px 4px 8px, #dd1e4b 0px 4px 14px;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .portfilio .port .prj .cardic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .portfilio .port .prj .card img {
+    width: 260px;
+    height: auto;
+  }
+
+  .portfilio .port .prj .card .img1:hover {
+    margin-top: -150px;
+    transition: 2s;
+  }
+  .portfilio .port .prj .card .img2:hover {
+    margin-top: 0;
+    transition: 1s;
+  }
+  .portfilio .port .prj .card .img3:hover {
+    margin-top: -120px;
+    transition: 2s;
+  }
+
+  .portfilio h1 {
+    color: #dd1e4b;
+    font-size: 70px;
+  }
+}
