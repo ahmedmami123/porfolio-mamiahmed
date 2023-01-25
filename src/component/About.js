@@ -1,7 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useLocation, useNavigationType } from 'react-router-dom';
 import "./About.css"
 
 function About() {
+  const location = useLocation();
+  const navType = useNavigationType();
+  useEffect(() => {
+    if (navType !== "POP") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+  }, [location]);
   return (
     <div className='About'>
         <h1>About</h1>

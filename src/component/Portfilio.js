@@ -1,8 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Cardcss from './Cardcss';
 import "./Portfilio.css"
 import "./Cardcss.css"
 import Video from './Video';
+import { useLocation, useNavigationType } from 'react-router-dom';
 function Portfilio() {
   const [show, setshow] = useState(true);
   const [show1, setshow1] = useState(false);
@@ -19,6 +20,16 @@ function Portfilio() {
   const [showvideoshop, setshowvideoshop] = useState(false);
   const [showvideomovie, setshowvideomovie] = useState(false);
   const [showtomocrea, setshowtomocrea] = useState(false);
+  const location = useLocation();
+  const navType = useNavigationType();
+  useEffect(() => {
+    if (navType !== "POP") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
+  }, [location]);
   return (
     <div className='portfilio'>
       {showvideoshop?<Video videoshop={videoshop1} setshowvi={setshowvideoshop} showvideoshop={showvideoshop} />:null}

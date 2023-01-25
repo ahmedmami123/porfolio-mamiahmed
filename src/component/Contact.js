@@ -3,6 +3,7 @@
 import React, { useEffect,useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import "./Contact.css"
+import { useLocation, useNavigationType } from 'react-router-dom';
 
 function Contact() {
   const form = useRef();
@@ -33,11 +34,21 @@ const handleUserInput2 = (e) => {
   setInputValue2(e.target.value);
 };
 // Reset Input Field handler
+const location = useLocation();
+const navType = useNavigationType();
 const resetInputField = () => {
   setInputValue("");
   setInputValue1("");
   setInputValue2("");
 };
+useEffect(() => {
+  if (navType !== "POP") {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+}, [location]);
   return (
     <div className='contact'>
         <div className='div1'>
